@@ -2,19 +2,31 @@ ProductHub
 ProductHub is a Node.js API for managing users and products. It supports user registration, login, and CRUD operations on products.Each product can include an image, and the API ensures unique usernames during registration. The API uses JWT for authentication and PostgreSQL for data persistence.
 
 Features
--User registration and login with JWT authentication
--Create, read, update, and delete products
+
+ -User registration and login with JWT authentication
+ 
+ -Create, read, update, and delete products
+ 
 -Image upload for products with validation
+
 -Input validation and error handling
 
 Technologies Used
+
 -Node.js
+
 -Express.js
+
 -PostgreSQL
+
 -Sequelize ORM
+
 -Multer for file uploads
+
 -JWT for authentication
+
 -Joi for input validation
+
 -nodemon
 
 Prerequisites
