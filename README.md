@@ -30,26 +30,39 @@ Technologies Used
 -nodemon
 
 Prerequisites
+
 Before you begin, ensure you have the following installed on your machine:
+
 -Node.js
+
 -npm
+
 -PostgreSQL
 
 Run Appliction using following command:
+
 npm install
-npm start
 
 Environment Variables
+
 Create a .env file in the root directory and add the following environment variables:
 
 JWT_SECRET=secretkey (Your secret key)
+
 PORT=3000
+
 DB_NAME = product_hub (DB_name)
+
 DB_USERNAME = Your_DB_username
+
 DB_PASSWORD = Your_DB_password
+
 DB_HOST = localhost
 
 Run Appliction using following command:
+
+npm start
+
 npm run dev
 
 API Endpoints
